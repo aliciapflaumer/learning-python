@@ -106,3 +106,32 @@
 # print("I love " + celebrity)
 
 # Lists
+
+# friends = ["Lisa", "Karen", "Kevin", "Tony", "Oscar"]
+# print(friends[1:])
+# Prints elements after first index ['Karen', 'Kevin', 'Tony', 'Oscar']
+# print(friends[1:3])
+# Specifying a range ['Karen', 'Kevin']
+# friends[2] = "Mike"
+# print(friends[2])
+# Updated index to: Mike
+
+# lucky_numbers = [4, 8, 15, 16, 23, 42]
+# Add 2 lists together
+# friends.extend(lucky_numbers)
+# Add to end of list
+# friends.append("Creed")
+# friends.insert(1, "Kelly")
+# friends.remove("Tony")
+# remove last index:
+# friends.pop()
+# print(friends.index("Lisa"))
+# 0
+# sorts alphabetically or ascending order
+# friends.sort()
+# lucky_numbers.reverse()
+# lucky_numbers.sort()
+
+# friends2 = friends[:]
+# print(friends)
+# print(friends2)
