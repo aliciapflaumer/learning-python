@@ -131,7 +131,27 @@
 # friends.sort()
 # lucky_numbers.reverse()
 # lucky_numbers.sort()
-
+# To copy
 # friends2 = friends[:]
 # print(friends)
 # print(friends2)
+
+# Tuples = data structure that stores information
+
+# ie: coordinates
+# Tuples are immutable but potentially changing
+#  Use tuples for data that is never going to change
+# coordinates = [(4, 5), (6, 7), (80, 34)]
+# print(coordinates[2][0])
+# 80
+
+# Functions
+# Say hi to user
+def say_hi(name, age):
+    print("Hello " + name + ", you are " + str(age))
+
+#  call the Function
+say_hi("Mike", 70)
+say_hi("Jane", 35)
+# Hello Mike, you are 70
+# Hello Jane, you are 35
