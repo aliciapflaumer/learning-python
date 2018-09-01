@@ -210,24 +210,32 @@
 
 
 # Dictionaries
-monthConversions = {
-    # define key/value pairs here
-    0: "January",
-    1: "February",
-    2: "March",
-    "Apr": "April",
-    "May": "May",
-    "Jun": "June",
-    "Jul": "July",
-    "Aug": "August",
-    "Sep": "September",
-    "Oct": "October",
-    "Nov": "November",
-    "Dec": "December",
-}
+# monthConversions = {
+#     # define key/value pairs here
+#     0: "January",
+#     1: "February",
+#     2: "March",
+#     "Apr": "April",
+#     "May": "May",
+#     "Jun": "June",
+#     "Jul": "July",
+#     "Aug": "August",
+#     "Sep": "September",
+#     "Oct": "October",
+#     "Nov": "November",
+#     "Dec": "December",
+# }
 
 # print(monthConversions["Mar"])
 # print(monthConversions.get("Luv", "Not a valid Key"))
 
-print(monthConversions[0])
+# print(monthConversions[0])
 # January
+
+# While Loop
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+
+print("Done with loop")
