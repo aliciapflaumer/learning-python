@@ -181,12 +181,29 @@
 
 # If Statements & Comparisons
 # passing in 3 numbers and function will return the larger of the three
-def max_num(num1, num2, num3):
-    if num1 >= num2 and num1 >= num3:
-        return num1
-    elif num2 >= num1 and num2 >= num3:
-        return num2
-    else:
-        return num3
+# def max_num(num1, num2, num3):
+#     if num1 >= num2 and num1 >= num3:
+#         return num1
+#     elif num2 >= num1 and num2 >= num3:
+#         return num2
+#     else:
+#         return num3
+#
+# print(max_num(3,40,5))
 
-print(max_num(3,40,5))
+
+# Building a better calculator
+num1 = float(raw_input("Enter first number: "))
+operator = raw_input("Enter operator: ")
+num2 = float(raw_input("Enter second number: "))
+
+if operator == "+":
+    print(num1 + num2)
+elif operator == "-":
+    print(num1 - num2)
+elif operator == "/":
+    print(num1 / num2)
+elif operator == "*":
+    print(num1 * num2)
+else:
+    print("Invalid operator")
