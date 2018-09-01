@@ -147,11 +147,34 @@
 
 # Functions
 # Say hi to user
-def say_hi(name, age):
-    print("Hello " + name + ", you are " + str(age))
+# def say_hi(name, age):
+    # print("Hello " + name + ", you are " + str(age))
 
 #  call the Function
-say_hi("Mike", 70)
-say_hi("Jane", 35)
+# say_hi("Mike", 70)
+# say_hi("Jane", 35)
 # Hello Mike, you are 70
 # Hello Jane, you are 35
+
+
+# Return Statement
+# cube a number
+# def cube(num):
+#     return num*num*num
+#
+# result = cube(4)
+# print(result)
+
+
+# if Statement
+is_female = True
+is_tall = False
+
+if is_female and is_tall:
+    print("You are a tall female")
+elif is_female and not(is_tall):
+    print("You are a short female")
+elif not is_female and (is_tall):
+    print("You are not a female and are tall")
+else:
+    print("You are either not a female or tall")
