@@ -167,14 +167,26 @@
 
 
 # if Statement
-is_female = True
-is_tall = False
+# is_female = True
+# is_tall = False
+#
+# if is_female and is_tall:
+#     print("You are a tall female")
+# elif is_female and not(is_tall):
+#     print("You are a short female")
+# elif not is_female and (is_tall):
+#     print("You are not a female and are tall")
+# else:
+#     print("You are either not a female or tall")
 
-if is_female and is_tall:
-    print("You are a tall female")
-elif is_female and not(is_tall):
-    print("You are a short female")
-elif not is_female and (is_tall):
-    print("You are not a female and are tall")
-else:
-    print("You are either not a female or tall")
+# If Statements & Comparisons
+# passing in 3 numbers and function will return the larger of the three
+def max_num(num1, num2, num3):
+    if num1 >= num2 and num1 >= num3:
+        return num1
+    elif num2 >= num1 and num2 >= num3:
+        return num2
+    else:
+        return num3
+
+print(max_num(3,40,5))
