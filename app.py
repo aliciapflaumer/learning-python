@@ -193,17 +193,41 @@
 
 
 # Building a better calculator
-num1 = float(raw_input("Enter first number: "))
-operator = raw_input("Enter operator: ")
-num2 = float(raw_input("Enter second number: "))
+# num1 = float(raw_input("Enter first number: "))
+# operator = raw_input("Enter operator: ")
+# num2 = float(raw_input("Enter second number: "))
+#
+# if operator == "+":
+#     print(num1 + num2)
+# elif operator == "-":
+#     print(num1 - num2)
+# elif operator == "/":
+#     print(num1 / num2)
+# elif operator == "*":
+#     print(num1 * num2)
+# else:
+#     print("Invalid operator")
 
-if operator == "+":
-    print(num1 + num2)
-elif operator == "-":
-    print(num1 - num2)
-elif operator == "/":
-    print(num1 / num2)
-elif operator == "*":
-    print(num1 * num2)
-else:
-    print("Invalid operator")
+
+# Dictionaries
+monthConversions = {
+    # define key/value pairs here
+    0: "January",
+    1: "February",
+    2: "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December",
+}
+
+# print(monthConversions["Mar"])
+# print(monthConversions.get("Luv", "Not a valid Key"))
+
+print(monthConversions[0])
+# January
