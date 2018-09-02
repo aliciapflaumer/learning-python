@@ -344,6 +344,8 @@
 
 
 # Modules and Pip
-import useful_tools
+# import useful_tools
+#
+# print(useful_tools.roll_dice(10))
 
-print(useful_tools.roll_dice(10))
+# Classes & Objects
