@@ -341,3 +341,9 @@
 # employee_file = open("index.html", "w")
 # employee_file.write("<p>This is an HTML page</p>")
 # employee_file.close()
+
+
+# Modules and Pip
+import useful_tools
+
+print(useful_tools.roll_dice(10))
