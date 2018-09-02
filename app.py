@@ -348,4 +348,11 @@
 #
 # print(useful_tools.roll_dice(10))
 
+
 # Classes & Objects
+# from student import Student
+#
+# student1 = Student("Jim", "Business", 3.1, True)
+# student2 = Student("Pam", "Art", 4.0, False)
+#
+# print(student2.name)
