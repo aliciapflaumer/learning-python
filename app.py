@@ -405,3 +405,7 @@
 # output
 # The chef makes a chicken with cream sauce
 # The chef makes orange chicken and rice
+
+# Python Interpreter: good for testing
+# in terminal write `python3`
+# to exit the interpreter type `exit()`
