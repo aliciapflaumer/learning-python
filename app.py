@@ -316,3 +316,13 @@
 #     print(number)
 # except:
 #     print("Invalid Input")
+
+
+# Reading files
+# Modes: r = read, w = write, a = append, r+ = read & write
+# readable, read, readline, readlines
+# employee_file = open("employees.txt", "r")
+# for employee in employee_file.readlines():
+#     print(employee)
+#     # print(employee_file.readlines()[1])
+# employee_file.close()
