@@ -390,3 +390,18 @@
 # student2 = Student("Phyllis", "Business", 3.8)
 #
 # print(student2.on_honor_roll())
+
+
+# Inheritance
+# from chef import Chef
+# from chineseChef import ChineseChef
+#
+# theChef = Chef()
+# theChef.make_special_dish()
+#
+# theChineseChef = ChineseChef()
+# theChineseChef.make_special_dish()
+
+# output
+# The chef makes a chicken with cream sauce
+# The chef makes orange chicken and rice
