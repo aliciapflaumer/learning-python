@@ -308,3 +308,11 @@
 #     return translation
 #
 # print(translate(raw_input("Enter a phrase: ")))
+
+
+# Try Except block: catching errors
+# try:
+#     number = int(raw_input("Enter a number: "))
+#     print(number)
+# except:
+#     print("Invalid Input")
