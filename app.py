@@ -326,3 +326,18 @@
 #     print(employee)
 #     # print(employee_file.readlines()[1])
 # employee_file.close()
+
+# Writing to files using append
+# employee_file = open("employees.txt", "a")
+# employee_file.write("\nKelly - Customer Service")
+# employee_file.close()
+
+# Writing to files using write
+# employee_file = open("employees1.txt", "w")
+# employee_file.write("\nKelly - Customer Service")
+# employee_file.close()
+
+# Writing to HTML file
+# employee_file = open("index.html", "w")
+# employee_file.write("<p>This is an HTML page</p>")
+# employee_file.close()
